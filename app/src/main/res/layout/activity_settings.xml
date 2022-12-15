@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/DeleteAccount"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="35dp"
+        android:text="Delete Account"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/retrievedata" />
+
+    <Button
+        android:id="@+id/theme"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="35dp"
+        android:text="Theme"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ChangeUSN" />
+
+    <Button
+        android:id="@+id/chnguser"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="Change Email"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Chngpass"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="35dp"
+        android:text="Change Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/chnguser" />
+
+    <Button
+        android:id="@+id/retrievedata"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="35dp"
+        android:text="Profile Data"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Chngpass" />
+
+    <Button
+        android:id="@+id/ChangeUSN"
+        android:layout_width="0dp"
+        android:layout_height="48dp"
+        android:layout_marginTop="35dp"
+        android:text="Change User Name"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/DeleteAccount" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
